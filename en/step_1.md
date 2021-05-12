@@ -1,59 +1,43 @@
-## Introduction
+Loops can be used to `repeat`{:class="block3control"} code blocks a set number of times, `repeat until`{:class="block3control"} a condition is met, or run `forever`{:class="block3control"}. 
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+Inserting a `change`{:class="block3variables"} block into a loop will `change`{:class="block3variables"} your `variable`{:class="block3variables"} each tim the loop runs. 
 
-### What you will make
+The code below would accelerate a sprite gradually:  
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
+```blocks3
+repeat (10)
+change [speed v] by (1)
+move (speed) steps
+end
+```  
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
+The code below would increase a player's score the longer they played the game:  
 
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
+```blocks3
+forever
+wait (10) seconds
+change [score v] by (1)
+end
+```  
 
---- collapse ---
----
-title: What you will need
----
-### Hardware
+The code below would keep running the loop adding `1` to the `time`{:class="block3variables"} variable until `time`{:class="block3variables"} `=`{:class="block3operators"} `50`.
 
-+ A computer or tablet capable of running Scratch 3
+```blocks3
+repeat until <(time) = (50)>
+wait (1) seconds
+change [time v] by (1)
+end
+``` 
 
-### Software
+You can also use built in Scratch variables, such as `size`{:class="block3looks"}, `costume number`{:class="block3looks"}, `volume`{:class="block3sound"} and `direction`{:class="block3motion"}:
 
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
+```blocks3
+repeat (10)
+change (size) by (10)
+change (costume [number v]) by (1)
+change (volume) by (5)
+change (direction) by (-45)
+end
+```  
 
-### Downloads
 
-+ Download the project [starter file](http://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
----
-
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
-
---- /collapse ---
-
---- collapse ---
----
-title: Additional information for educators
----
-
-You can download the completed project [here](http://rpf.io/p/en/projectName-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
