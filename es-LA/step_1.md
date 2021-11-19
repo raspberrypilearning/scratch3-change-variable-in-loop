@@ -1,8 +1,8 @@
-Loops can be used to `repeat`{:class="block3control"} code blocks a set number of times, `repeat until`{:class="block3control"} a condition is met, or run `forever`{:class="block3control"}.
+Los bucles o "loops" se pueden usar para `repetir`{:class="block3control"} bloques de código un número determinado de veces, `repetir hasta que`{:class="block3control"} cumpla una condición, o correr `por siempre`{:class="block3control"}.
 
-Inserting a `change`{:class="block3variables"} block into a loop will `change`{:class="block3variables"} your `variable`{:class="block3variables"} each tim the loop runs.
+Insertar un bloque `cambiar`{:class="block3variables"} en un bucle va a `cambiar`{:class="block3variables"} tu `variable`{:class="block3variables"} cada vez que se se ejecute el bucle.
 
-The code below would accelerate a sprite gradually:
+El siguiente código aceleraría un sprite gradualmente:
 
 ```blocks3
 repeat (10)
@@ -11,7 +11,7 @@ move (speed) steps
 end
 ```
 
-The code below would increase a player's score the longer they played the game:
+El siguiente código incrementará la puntuación del jugador entre más tiempo juegue:
 
 ```blocks3
 forever
@@ -20,7 +20,7 @@ change [score v] by (1)
 end
 ```
 
-The code below would keep running the loop adding `1` to the `time`{:class="block3variables"} variable until `time`{:class="block3variables"} `=`{:class="block3operators"} `50`.
+El siguiente código continuará ejecutando el bucle sumando `1` a la variable `tiempo`{:class="block3variables"} hasta que `tiempo`{:class="block3variables"} `=`{:class="block3operators"} `50`.
 
 ```blocks3
 repeat until <(time) = (50)>
@@ -29,7 +29,7 @@ change [time v] by (1)
 end
 ```
 
-You can also use built in Scratch variables, such as `size`{:class="block3looks"}, `costume number`{:class="block3looks"}, `volume`{:class="block3sound"} and `direction`{:class="block3motion"}:
+También puedes utilizar variables que vienen con Scratch, como `tamaño`{:class="block3looks"}, ` disfraz número`{:class="block3looks"}, `volumen`{:class="block3sound"} y `dirección`{:class="block3motion"}:
 
 ```blocks3
 repeat (10)
