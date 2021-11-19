@@ -1,5 +1,5 @@
-speed
+velocidad
 
-score
+puntaje
 
-time
+tiempo
