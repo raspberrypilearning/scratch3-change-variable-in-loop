@@ -1,8 +1,8 @@
-Loops can be used to `repeat`{:class="block3control"} code blocks a set number of times, `repeat until`{:class="block3control"} a condition is met, or run `forever`{:class="block3control"}.
+Lussen kunnen worden gebruikt om `herhaal`{:class="block3control"} codeblokken een bepaald aantal keren, `herhaal tot`{:class="block3control"} een voorwaarde is voldaan, of `altijd`{:class="block3control"} te blijven uitvoeren.
 
-Inserting a `change`{:class="block3variables"} block into a loop will `change`{:class="block3variables"} your `variable`{:class="block3variables"} each tim the loop runs.
+Het invoegen van een `verander`{:class="block3variables"} blok in een lus zal je `variabele`{:class="block3variables"} `veranderen`{:class="block3variables"} iedere keer dat de lus wordt uitgevoerd.
 
-The code below would accelerate a sprite gradually:
+De onderstaande code zou een sprite steeds meer versnellen:
 
 ```blocks3
 repeat (10)
@@ -11,7 +11,7 @@ move (speed) steps
 end
 ```
 
-The code below would increase a player's score the longer they played the game:
+De onderstaande code verhoogt de score van een speler naarmate hij het spel langer speelt:
 
 ```blocks3
 forever
@@ -20,7 +20,7 @@ change [score v] by (1)
 end
 ```
 
-The code below would keep running the loop adding `1` to the `time`{:class="block3variables"} variable until `time`{:class="block3variables"} `=`{:class="block3operators"} `50`.
+De onderstaande code zou de lus blijven uitvoeren door `1` te voegen aan de `tijd`{:class="block3variables"} variabele tot `tijd`{:class="block3variables"} `=`{:class="block3operators"} `50`.
 
 ```blocks3
 repeat until <(time) = (50)>
@@ -29,7 +29,7 @@ change [time v] by (1)
 end
 ```
 
-You can also use built in Scratch variables, such as `size`{:class="block3looks"}, `costume number`{:class="block3looks"}, `volume`{:class="block3sound"} and `direction`{:class="block3motion"}:
+Je kunt ook ingebouwde Scratch-variabelen gebruiken, zoals `grootte`{:class="block3looks"}, `uiterlijk nummer`{:class="block3looks"}, `volume`{:class="block3sound"} en `richting`{:class="block3motion"}:
 
 ```blocks3
 repeat (10)
