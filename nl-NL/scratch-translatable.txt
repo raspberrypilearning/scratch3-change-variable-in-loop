@@ -1,5 +1,5 @@
-speed
+snelheid
 
 score
 
-time
+tijd
