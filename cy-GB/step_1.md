@@ -1,8 +1,8 @@
-Loops can be used to `repeat`{:class="block3control"} code blocks a set number of times, `repeat until`{:class="block3control"} a condition is met, or run `forever`{:class="block3control"}.
+Mae modd defnyddio dolenni i `ailadrodd`{:class="block3control"} blociau cod nifer penodol o weithiau, `ailadrodd tab`{:class="block3control"} fod amod wedi'i fodloni, neu redeg `am byth`{:class="block3control"}.
 
-Inserting a `change`{:class="block3variables"} block into a loop will `change`{:class="block3variables"} your `variable`{:class="block3variables"} each tim the loop runs.
+Bydd mewnosod bloc `newid`{:class="block3variables"} i mewn i ddolen yn `newid`{:class="block3variables"} dy `newidyn`{:class="block3variables"} bob tro mae'r ddolen yn rhedeg.
 
-The code below would accelerate a sprite gradually:
+Byddai'r cod isod yn cyflymu corlun yn raddol:
 
 ```blocks3
 repeat (10)
@@ -11,7 +11,7 @@ move (speed) steps
 end
 ```
 
-The code below would increase a player's score the longer they played the game:
+Byddai'r cod isod yn cynyddu sgôr chwaraewr po hiraf bydd yn chwarae'r gêm:
 
 ```blocks3
 forever
@@ -20,7 +20,7 @@ change [score v] by (1)
 end
 ```
 
-The code below would keep running the loop adding `1` to the `time`{:class="block3variables"} variable until `time`{:class="block3variables"} `=`{:class="block3operators"} `50`.
+Byddai'r cod isod yn parhau i redeg y ddolen gan ychwanegu `1` at y newidyn `amser`{:class="block3variables"} tan fod yr `amser`{:class="block3variables"} `=`{:class="block3operators"} `50`.
 
 ```blocks3
 repeat until <(time) = (50)>
@@ -29,7 +29,7 @@ change [time v] by (1)
 end
 ```
 
-You can also use built in Scratch variables, such as `size`{:class="block3looks"}, `costume number`{:class="block3looks"}, `volume`{:class="block3sound"} and `direction`{:class="block3motion"}:
+Galli di hefyd ddefnyddio newidynnau Scratch parod, fel `maint`{:class="block3looks"}, `rhif gwisg`{:class="block3looks"}, `lefel sain`{:class="block3sound"} a `cyfeiriad`{:class="block3motion"}:
 
 ```blocks3
 repeat (10)
