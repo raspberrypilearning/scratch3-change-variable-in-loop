@@ -6,8 +6,8 @@ De onderstaande code zou een sprite steeds meer versnellen:
 
 ```blocks3
 repeat (10)
-change [speed v] by (1)
-move (speed) steps
+change [snelheid v] by (1)
+move (snelheid) steps
 end
 ```
 
@@ -23,9 +23,9 @@ end
 De onderstaande code zou de lus blijven uitvoeren door `1` te voegen aan de `tijd`{:class="block3variables"} variabele tot `tijd`{:class="block3variables"} `=`{:class="block3operators"} `50`.
 
 ```blocks3
-repeat until <(time) = (50)>
+repeat until <(tijd) = (50)>
 wait (1) seconds
-change [time v] by (1)
+change [tijd v] by (1)
 end
 ```
 
