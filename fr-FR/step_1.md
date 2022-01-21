@@ -1,4 +1,4 @@
-Les boucles peuvent être utilisées pour `répéter`{:class="block3control"}des blocs de code un nombre défini de fois, `répéter jusqu'à`{:class="block3control"} une condition est remplie, ou exécuter ` indéfiniment`{:class= "bloc3contrôle"}.
+Les boucles peuvent être utilisées pour `répéter`{:class="block3control"}des blocs de code un nombre défini de fois, `répéter jusqu'à`{:class="block3control"} une condition est remplie, ou exécuter ` indéfiniment`{:class="block3control"}.
 
 L'insertion d'un bloc `mettre ma variable à`{:class="block3variables"} dans une boucle `changera`{:class="block3variables"} ta `variable`{:class="block3variables"} à chaque fois que la boucle s'exécute.
 
