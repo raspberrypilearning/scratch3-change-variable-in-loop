@@ -20,7 +20,7 @@ change [score v] by (1)
 end
 ```
 
-The code below would keep running the loop adding `1` to the `time`{:class="block3variables"} variable until `time`{:class="block3variables"} `=`{:class="block3operators"} `50`.
+ان المقطع البرمجي أدناه يحافظ على تشغيل حلقة التكرار من خلال اضافة `1` إلى متغير`الوقت`{:class="block3variables"} حتى يصبح`الوقت`{:class="block3variables"} `=`{:class="block3operators"} `50`.
 
 ```blocks3
 repeat until <(time) = (50)>
@@ -29,7 +29,7 @@ change [time v] by (1)
 end
 ```
 
-You can also use built in Scratch variables, such as `size`{:class="block3looks"}, `costume number`{:class="block3looks"}, `volume`{:class="block3sound"} and `direction`{:class="block3motion"}:
+يمكنك أيضًا استخدام متغيرات موجودة في Scratch ، مثل `الحجم`{:class="block3looks"} ، `رقم المظهر`{:class="block3looks"}، `شدة الصوت`{:class="block3sound"} و `الاتجاه`:class="block3motion"}:
 
 ```blocks3
 repeat (10)
