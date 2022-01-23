@@ -1,8 +1,8 @@
-Loops can be used to `repeat`{:class="block3control"} code blocks a set number of times, `repeat until`{:class="block3control"} a condition is met, or run `forever`{:class="block3control"}.
+يمكن استخدام المقطع البرمجي `كرر`{: class = "block3control"} لعدد محدد من المرات ، `كرر حتى`{: class = "block3control"} تم استيفاء شرط ، أو تشغيل `كرر باستمرار`{: class = "block3control"}.
 
-Inserting a `change`{:class="block3variables"} block into a loop will `change`{:class="block3variables"} your `variable`{:class="block3variables"} each tim the loop runs.
+إدخال المقطع البرمجي `غير بمقدار`{:class="block3variables"} في المقطع البرمجي `كرر`{:class="block3variables"} الخاص بك سيغير الـ`متغير`{:class="block3variables"} في كل مرة يتنفذ بها المقطع البرمجي كرر.
 
-The code below would accelerate a sprite gradually:
+يعمل المقطع البرمجي أدناه على تسريع الكائن تدريجيًا:
 
 ```blocks3
 repeat (10)
@@ -11,7 +11,7 @@ move (speed) steps
 end
 ```
 
-The code below would increase a player's score the longer they played the game:
+سيزيد المقطع البرمجي أدناه نقاط اللاعب كلما طالت مدة لعب اللعبة:
 
 ```blocks3
 forever
