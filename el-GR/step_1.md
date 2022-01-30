@@ -1,4 +1,4 @@
-Loops can be used to `repeat`{:class="block3control"} code blocks a set number of times, `repeat until`{:class="block3control"} a condition is met, or run `forever`{:class="block3control"}.
+Οι βρόχοι μπορούν να χρησιμοποιηθούν ως μπλοκ κώδικα `επανάλαβε`{:class="block3control"} για έναν καθορισμένο αριθμό επαναλήψεων, ή ως `επανάλαβε ώσπου` {:class="block3control"} μια συνθήκη γίνει αληθής ή ως εκτέλεση `για πάντα`{:class= "block3control"}.
 
 Inserting a `change`{:class="block3variables"} block into a loop will `change`{:class="block3variables"} your `variable`{:class="block3variables"} each tim the loop runs.
 
