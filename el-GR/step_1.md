@@ -1,8 +1,8 @@
 Οι βρόχοι μπορούν να χρησιμοποιηθούν ως μπλοκ κώδικα `επανάλαβε`{:class="block3control"} για έναν καθορισμένο αριθμό επαναλήψεων, ή ως `επανάλαβε ώσπου` {:class="block3control"} μια συνθήκη γίνει αληθής ή ως εκτέλεση `για πάντα`{:class= "block3control"}.
 
-Inserting a `change`{:class="block3variables"} block into a loop will `change`{:class="block3variables"} your `variable`{:class="block3variables"} each tim the loop runs.
+Εισάγοντας ένα μπλοκ `άλλαξε`{:class="block3variables"} σε έναν βρόχο θα `αλλάξεις`{:class="block3variables"} τη `μεταβλητή`{:class="block3variables"} κάθε φορά που εκτελείται ο βρόχος.
 
-The code below would accelerate a sprite gradually:
+Ο παρακάτω κώδικας θα επιτάχυνε σταδιακά ένα αντικείμενο:
 
 ```blocks3
 repeat (10)
@@ -11,7 +11,7 @@ move (speed) steps
 end
 ```
 
-The code below would increase a player's score the longer they played the game:
+Ο παρακάτω κώδικας θα αύξανε το σκορ ενός παίκτη όσο περισσότερο έπαιζε το παιχνίδι:
 
 ```blocks3
 forever
@@ -20,7 +20,7 @@ change [score v] by (1)
 end
 ```
 
-The code below would keep running the loop adding `1` to the `time`{:class="block3variables"} variable until `time`{:class="block3variables"} `=`{:class="block3operators"} `50`.
+Ο παρακάτω κώδικας θα συνεχίσει να εκτελεί τον βρόχο προσθέτοντας `1` στη μεταβλητή`χρόνος`{:class="block3variables"} ώσπου ο `χρόνος`{:class="block3variables"} `=`{:class="block3operators"} `50`.
 
 ```blocks3
 repeat until <(time) = (50)>
@@ -29,7 +29,7 @@ change [time v] by (1)
 end
 ```
 
-You can also use built in Scratch variables, such as `size`{:class="block3looks"}, `costume number`{:class="block3looks"}, `volume`{:class="block3sound"} and `direction`{:class="block3motion"}:
+Μπορείς επίσης να χρησιμοποιήσεις ενσωματωμένες μεταβλητές του Scratch, όπως `μέγεθος`{:class="block3looks"}, `ενδυμασία νούμερο`{:class="block3looks"}, `ένταση`{:class="block3sound"} και `κατεύθυνση`{:class="block3motion"}:
 
 ```blocks3
 repeat (10)
