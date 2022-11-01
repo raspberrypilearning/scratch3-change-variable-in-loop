@@ -1,8 +1,8 @@
-Loops can be used to `repeat`{:class="block3control"} code blocks a set number of times, `repeat until`{:class="block3control"} a condition is met, or run `forever`{:class="block3control"}.
+Цикли можуть використовуватися, щоб `повторювати`{:class="block3control"} блоки коду задану кількість разів, `повторювати допоки`{:class="block3control"} виконується умова, або запустити і повторювати `завжди`{:class="block3control"}.
 
-Inserting a `change`{:class="block3variables"} block into a loop will `change`{:class="block3variables"} your `variable`{:class="block3variables"} each tim the loop runs.
+Вставлення блоку `змінити`{:class="block3variables"} в цикл зможе `змінювати`{:class="block3variables"} твої `змінні`{:class="block3variables"} при кожному виконанні циклу.
 
-The code below would accelerate a sprite gradually:
+Нижченаведений код буде поступово прискорювати спрайт:
 
 ```blocks3
 repeat (10)
@@ -11,7 +11,7 @@ move (speed) steps
 end
 ```
 
-The code below would increase a player's score the longer they played the game:
+Нижченаведений код підвищуватиме результат гравця залежно від того, як довго він буде грати:
 
 ```blocks3
 forever
@@ -20,7 +20,7 @@ change [score v] by (1)
 end
 ```
 
-The code below would keep running the loop adding `1` to the `time`{:class="block3variables"} variable until `time`{:class="block3variables"} `=`{:class="block3operators"} `50`.
+Нижченаведений код буде продовжувати виконувати цикл, додаючи `1` до змінної `час`{:class="block3variables"} до тих пір, поки `час`{:class="block3variables"} `=`{:class="block3operators"} `50`.
 
 ```blocks3
 repeat until <(time) = (50)>
@@ -29,7 +29,7 @@ change [time v] by (1)
 end
 ```
 
-You can also use built in Scratch variables, such as `size`{:class="block3looks"}, `costume number`{:class="block3looks"}, `volume`{:class="block3sound"} and `direction`{:class="block3motion"}:
+Ти також можеш використовувати вбудовані змінні Scratch, такі як `розмір`{:class="block3looks"}, `номер образу`{:class="block3looks"}, `гучність`{:class="block3sound"} та `напрям`{:class="block3motion"}:
 
 ```blocks3
 repeat (10)
