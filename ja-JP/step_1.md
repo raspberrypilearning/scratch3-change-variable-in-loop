@@ -1,8 +1,8 @@
-Loops can be used to `repeat`{:class="block3control"} code blocks a set number of times, `repeat until`{:class="block3control"} a condition is met, or run `forever`{:class="block3control"}.
+ループは、コードブロックを設定した`回数繰り返す`{:class="block3control"}、条件が満たされる`まで繰り返す`{:class="block3control"}、または `ずっと`{:class= "block3control"}繰り返すのに使用できます。
 
-Inserting a `change`{:class="block3variables"} block into a loop will `change`{:class="block3variables"} your `variable`{:class="block3variables"} each tim the loop runs.
+`変数を...にする`{:class="block3variables"}ブロックをループに挿入すると、ループが実行されるたびに`変数`{:class="block3variables"}を`変更`{:class="block3variables"}できます。
 
-The code below would accelerate a sprite gradually:
+以下のコードはスプライトを徐々に加速します。
 
 ```blocks3
 repeat (10)
@@ -11,7 +11,7 @@ move (speed) steps
 end
 ```
 
-The code below would increase a player's score the longer they played the game:
+以下のコードは、プレイヤーがゲームを長くプレイするほど、プレイヤーのスコアを増加させます。
 
 ```blocks3
 forever
@@ -20,7 +20,7 @@ change [score v] by (1)
 end
 ```
 
-The code below would keep running the loop adding `1` to the `time`{:class="block3variables"} variable until `time`{:class="block3variables"} `=`{:class="block3operators"} `50`.
+以下のコードは、`時間`{:class="block3variables"} `=`{:class="block3operators"} `50`になるまで、`時間`{:class="block3variables"}変数に`1`を追加するループを実行し続けます。
 
 ```blocks3
 repeat until <(time) = (50)>
@@ -29,7 +29,7 @@ change [time v] by (1)
 end
 ```
 
-You can also use built in Scratch variables, such as `size`{:class="block3looks"}, `costume number`{:class="block3looks"}, `volume`{:class="block3sound"} and `direction`{:class="block3motion"}:
+`大きさ`{:class="block3looks"}、`コスチュームの番号`{:class="block3looks"}、`音量`{:class="block3sound"}、`向き`{:class="block3motion"}など、Scratchに元から用意されている変数を使用することもできます。
 
 ```blocks3
 repeat (10)
