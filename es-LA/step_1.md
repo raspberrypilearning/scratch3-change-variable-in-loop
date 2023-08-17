@@ -1,8 +1,8 @@
 Los bucles o "loops" se pueden usar para `repetir`{:class="block3control"} bloques de código un número determinado de veces, `repetir hasta que`{:class="block3control"} cumpla una condición, o correr `por siempre`{:class="block3control"}.
 
-Insertar un bloque `cambiar`{:class="block3variables"} en un bucle va a `cambiar`{:class="block3variables"} tu `variable`{:class="block3variables"} cada vez que se se ejecute el bucle.
+Inserta un bloque `cambiar`{:class="block3variables"} en un bucle va a `cambiar`{:class="block3variables"} tu `variable`{:class="block3variables"} cada vez que se se ejecute el bucle.
 
-El siguiente código aceleraría un sprite gradualmente:
+El siguiente código aceleraría un objeto gradualmente:
 
 ```blocks3
 repeat (10)
@@ -11,7 +11,7 @@ move (speed) steps
 end
 ```
 
-El siguiente código incrementará la puntuación del jugador entre más tiempo juegue:
+El siguiente código aumentaría la puntuación de un jugador cuanto más tiempo jugara:
 
 ```blocks3
 forever
@@ -20,7 +20,7 @@ change [score v] by (1)
 end
 ```
 
-El siguiente código continuará ejecutando el bucle sumando `1` a la variable `tiempo`{:class="block3variables"} hasta que `tiempo`{:class="block3variables"} `=`{:class="block3operators"} `50`.
+El siguiente código seguiría ejecutando el bucle incrementando en `1` a la variable `tiempo`{:class="block3variables"} hasta que el `tiempo`{:class="block3variables"} `=`{:class="block3operators"} `50`.
 
 ```blocks3
 repeat until <(time) = (50)>
