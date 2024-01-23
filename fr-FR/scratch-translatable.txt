@@ -3,3 +3,5 @@ vitesse
 score
 
 temps
+
+number
