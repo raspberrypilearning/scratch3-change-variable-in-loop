@@ -29,12 +29,12 @@ change [czas v] by (1)
 end
 ```
 
-Możesz także używać zmiennych wbudowanych w Scratch, takich jak `rozmiar`{:class="block3looks"}, `numer kostiumu`{:class="block3looks"}, `objętość`{:class="block3sound"} i `kierunek`{:class="block3motion"}:
+Możesz także używać zmiennych wbudowanych w Scratch, takich jak `rozmiar`{:class="block3looks"}, `numer kostiumu`{:class="block3looks"}, `głośność`{:class="block3sound"} i `kierunek`{:class="block3motion"}:
 
 ```blocks3
 repeat (10)
 change (size) by (10)
-change (costume [number v]) by (1)
+change (costume [numer v]) by (1)
 change (volume) by (5)
 change (direction) by (-45)
 end
