@@ -1,4 +1,4 @@
-Pętli można używać aby powtarzać `powtarzaj`{:class="block3control"} blok kodu określoną liczbę razy, `powtarzaj dopóki`{:class="block3control"} służy do powtarzania bloku dopóki dany warunek jest spełniony, a `zawsze`{:class="block3control"} służy do powtarzania bloku w nieskończoność.
+Pętli można używać aby powtarzać `powtarzaj`{:class="block3control"} blok kodu określoną liczbę razy, `powtarzaj aż`{:class="block3control"} służy do powtarzania bloku dopóki dany warunek jest spełniony, a `zawsze`{:class="block3control"} służy do powtarzania bloku w nieskończoność.
 
 Wstawienie bloku `zmień`{:class="block3variables"} do pętli spowoduje zmianę za pomocą `zmień`{:class="block3variables"} twojej `zmiennej`{:class="block3variables"} za każdym razem, gdy pętla zostanie uruchomiona.
 
@@ -29,7 +29,7 @@ change [time v] by (1)
 end
 ```
 
-Możesz także używać zmiennych wbudowanych w Scratch, takich jak `rozmiar`{:class="block3looks"}, `numer kostiumu`{:class="block3looks"}, `objętość`{:class="block3sound"} i `kierunek`{:class="block3motion"}:
+Możesz także używać zmiennych wbudowanych w Scratch, takich jak `rozmiar`{:class="block3looks"}, `numer kostiumu`{:class="block3looks"}, `głośność`{:class="block3sound"} i `kierunek`{:class="block3motion"}:
 
 ```blocks3
 repeat (10)
