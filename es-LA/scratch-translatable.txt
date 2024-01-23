@@ -3,3 +3,5 @@ velocidad
 puntaje
 
 tiempo
+
+number
