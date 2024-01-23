@@ -3,3 +3,5 @@ speed
 score
 
 time
+
+number
