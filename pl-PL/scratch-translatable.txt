@@ -1,5 +1,5 @@
-speed
+prędkość
 
-score
+wynik
 
-time
+czas
