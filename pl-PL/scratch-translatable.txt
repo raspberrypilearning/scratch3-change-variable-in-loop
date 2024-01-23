@@ -3,3 +3,5 @@ prędkość
 wynik
 
 czas
+
+numer
