@@ -1,8 +1,8 @@
-Loops can be used to `repeat`{:class="block3control"} code blocks a set number of times, `repeat until`{:class="block3control"} a condition is met, or run `forever`{:class="block3control"}.
+Cykly mohou být použity pro `opakování`{:class="block3control"} daného bloku kódu `několik` `krát`{:class="block3control"}, <0>opakování dokud nenastane</0>{:class="block3control"} podmínka, nebo pro <0>opakování stále</0>{:class= "block3control"}.
 
-Inserting a `change`{:class="block3variables"} block into a loop will `change`{:class="block3variables"} your `variable`{:class="block3variables"} each tim the loop runs.
+Vložením bloku `změň`{:class="block3variables"} do smyčky se `změní`{:class="block3variables"} vaše `proměnná`{:class="block3variables"} pokaždé, když smyčka proběhne.
 
-The code below would accelerate a sprite gradually:
+Níže uvedený kód by postupně zrychloval sprite:
 
 ```blocks3
 repeat (10)
@@ -11,7 +11,7 @@ move (speed) steps
 end
 ```
 
-The code below would increase a player's score the longer they played the game:
+Níže uvedený kód by zvýšoval skóre hráče, čím déle hru hraje:
 
 ```blocks3
 forever
@@ -20,7 +20,7 @@ change [score v] by (1)
 end
 ```
 
-The code below would keep running the loop adding `1` to the `time`{:class="block3variables"} variable until `time`{:class="block3variables"} `=`{:class="block3operators"} `50`.
+Níže uvedený kód by se opakoval a přidával `1` do proměnné `čas`{:class="block3variables"} až do `čas`{:class="block3variables"} `=`{:class="block3operators"} `50`.
 
 ```blocks3
 repeat until <(time) = (50)>
@@ -29,7 +29,7 @@ change [time v] by (1)
 end
 ```
 
-You can also use built in Scratch variables, such as `size`{:class="block3looks"}, `costume number`{:class="block3looks"}, `volume`{:class="block3sound"} and `direction`{:class="block3motion"}:
+Můžete také použít zabudované proměnné Scratch, jako je `velikost`{:class="block3looks"}, `kostým číslo`{:class="block3looks"}, `hlasitost`{:class="block3sound"} a `směr`{:class="block3motion"}:
 
 ```blocks3
 repeat (10)
