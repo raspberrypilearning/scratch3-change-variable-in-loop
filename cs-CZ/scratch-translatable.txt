@@ -1,7 +1,7 @@
-speed
+rychlost
 
-score
+skóre
 
-time
+čas
 
-number
+číslo
