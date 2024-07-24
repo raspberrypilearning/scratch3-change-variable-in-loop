@@ -1,0 +1,7 @@
+velocidade
+
+placar
+
+tempo
+
+número
