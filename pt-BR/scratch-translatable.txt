@@ -1,7 +1,7 @@
-speed
+velocidade
 
-score
+placar
 
-time
+tempo
 
-number
+número
