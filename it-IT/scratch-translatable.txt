@@ -1,0 +1,7 @@
+speed
+
+score
+
+time
+
+number
