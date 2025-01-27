@@ -1,7 +1,7 @@
-speed
+velocità
 
-score
+punteggio
 
-time
+tempo
 
-number
+numero
