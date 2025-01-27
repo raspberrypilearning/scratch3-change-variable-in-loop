@@ -1,8 +1,8 @@
-Loops can be used to `repeat`{:class="block3control"} code blocks a set number of times, `repeat until`{:class="block3control"} a condition is met, or run `forever`{:class="block3control"}.
+I loop possono essere utilizzati per `ripetere`{:class=“block3control”} blocchi di codice un numero prestabilito di volte, per `ripetere fino a quando`{:class=“block3control”} non viene soddisfatta una condizione, o per eseguire un blocco di codice `per sempre`{:class=“block3control”}.
 
-Inserting a `change`{:class="block3variables"} block into a loop will `change`{:class="block3variables"} your `variable`{:class="block3variables"} each tim the loop runs.
+Inserire un blocco `cambia`{:class="block3variables"} in un loop `modificherà`{:class="block3variables"} la tua `variabile`{:class="block3variables"} ogni volta che il loop viene eseguito.
 
-The code below would accelerate a sprite gradually:
+Il codice seguente farà accelerare gradualmente uno sprite:
 
 ```blocks3
 repeat (10)
@@ -11,7 +11,7 @@ move (speed) steps
 end
 ```
 
-The code below would increase a player's score the longer they played the game:
+Il codice seguente aumenterà il punteggio della persona che gioca man mano che la partita continua:
 
 ```blocks3
 forever
@@ -20,7 +20,7 @@ change [score v] by (1)
 end
 ```
 
-The code below would keep running the loop adding `1` to the `time`{:class="block3variables"} variable until `time`{:class="block3variables"} `=`{:class="block3operators"} `50`.
+Il codice seguente continuerà a eseguire il loop aggiungendo `1` alla variabile `tempo`{:class="block3variables"} fino a quando `tempo`{:class="block3variables"} `=`{:class="block3operators"} `50`.
 
 ```blocks3
 repeat until <(time) = (50)>
@@ -29,7 +29,7 @@ change [time v] by (1)
 end
 ```
 
-You can also use built in Scratch variables, such as `size`{:class="block3looks"}, `costume number`{:class="block3looks"}, `volume`{:class="block3sound"} and `direction`{:class="block3motion"}:
+Puoi anche usare le variabili integrate di Scratch, come `dimensione`{:class="block3looks"}, `numero costume`{:class="block3looks"}, `volume`{:class="block3sound"} e `direzione`{:class="block3motion"}:
 
 ```blocks3
 repeat (10)
